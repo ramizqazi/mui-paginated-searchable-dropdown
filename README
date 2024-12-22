@@ -1,7 +1,0 @@
-# Searchable Dropdown
-
-A customizable React dropdown component with Material UI, supporting search, pagination, and multi-select.
-
-## Installation
-```bash
-npm install my-searchable-dropdown

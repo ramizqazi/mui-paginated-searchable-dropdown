@@ -7,14 +7,15 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "dependencies": {
-    "@babel/plugin-transform-runtime": "^7.25.9",
-    "clsx": "^2.1.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramizqazi/mui-paginated-searchable-dropdown.git"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3",
+    "@babel/plugin-transform-runtime": "^7.25.9",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.8",
     "@rollup/plugin-node-resolve": "^15.3.1",
@@ -27,7 +28,7 @@
     "dist",
     "src"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
     "lodash.debounce": "^4.0.8",
