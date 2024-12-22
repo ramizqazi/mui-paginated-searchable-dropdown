@@ -1,5 +1,5 @@
 {
-  "name": "mui-searchable-dropdown",
+  "name": "mui-paginated-searchable-dropdown",
   "version": "1.0.0",
   "description": "Mui searchable dropdown with pagination support",
   "main": "dist/index.js",
