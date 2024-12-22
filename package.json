@@ -1,0 +1,40 @@
+{
+  "name": "mui-searchable-dropdown",
+  "version": "1.0.0",
+  "description": "Mui searchable dropdown with pagination support",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-url": "^8.0.2",
+    "rollup": "^2.79.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependencies": {
+    "@mui/icons-material": "^5.0.0",
+    "@mui/material": "^5.0.0",
+    "lodash.debounce": "^4.0.8",
+    "material-ui-popup-state": "^5.0.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-window": "^1.8.9"
+  }
+}
